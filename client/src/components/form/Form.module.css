@@ -1,0 +1,124 @@
+.container{
+    border: solid 1px #fff;
+    width: 400px;
+    background: #24303c;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-family: 'Calibri';
+}
+
+.button{
+    padding: 10px 15px;
+    background: rgb(53, 201, 206);
+    border-radius: 15px;
+    border: solid 1px rgb(2, 243, 252);
+    color: black;
+    letter-spacing: 2px;
+    font-family: 'Calibri';
+    font-size: 15px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.button:hover{
+    background: rgb(2, 243, 252);
+    box-shadow: 0 0 8px rgb(2, 243, 252), 0 0 20px rgb(2, 243, 252), 0 0 20px rgb(2, 243, 252);
+    transition-delay: 0.1s;
+}
+
+.container h1{
+    padding: 2%;
+    text-shadow: 0 0 0.2rem #00eeff, 0 0 0.1rem #00eeff , 0 0 1rem #00eeff;
+}
+
+.form label{
+    text-shadow: 0 0 0.2rem #00eeff, 0 0 0.1rem #00eeff , 0 0 1rem #00eeff;
+}
+
+.form input{
+    width: 100%;
+    background: #24303c;
+    padding: 3px;
+    border-radius: 4px;
+    margin-bottom: 1px;
+    border: 1px solid #356feb8c;
+    font-family: 'Calibri';
+    font-size: 13px;
+    color: #fff;
+}
+
+.form h6{
+    font-size: 15px;
+    text-shadow: 0 0 0.2rem #00eeff, 0 0 0.1rem #00eeff , 0 0 1rem #00eeff;;
+}
+
+.form select{
+    background: #24303c;
+    padding: 3px;
+    border-radius: 4px;
+    width: 50%;
+    border: 1px solid #356feb8c;
+    font-family: 'Calibri';
+    font-size: 13px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.error{
+    color: rgb(243, 184, 184);
+    font-family: 'Calibri';
+    font-size: 13px;
+    text-shadow: 0 0 0.2rem rgba(255, 2, 2, 0.753), 0 0 0.2rem rgba(255, 2, 2, 0.753), 0 0 0.1rem rgba(255, 2, 2, 0.753);
+}
+
+.s{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+    font-size: 13px;
+    padding: 2px 2px;
+}
+
+.li{
+    list-style-type: none;
+}
+.lista{
+    border: 1px solid #356feb8c;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 1px;
+    font-size: 12px;
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+}
+
+.b{
+    border-radius: 360px;
+    padding: 1px 1px;
+    background: rgb(53, 201, 206)
+}
+
+.create{
+    margin: 20px;
+    padding: 8px 10px;
+    background: rgb(53, 201, 206);
+    border-radius: 15px;
+    border: solid 1px rgb(2, 243, 252);
+    color: black;
+    letter-spacing: 2px;
+    font-family: 'Calibri';
+    font-size: 15px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.create:hover{
+    background: rgb(2, 243, 252);
+    box-shadow: 0 0 8px rgb(2, 243, 252), 0 0 20px rgb(2, 243, 252), 0 0 20px rgb(2, 243, 252);
+    transition-delay: 0.1s;
+}
+
